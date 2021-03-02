@@ -1,0 +1,2 @@
+class WorkonasmController < ApplicationController
+end
