@@ -2821,3 +2821,10 @@ Processing by AnasayfaController#index as HTML
 Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-03-06 20:07:54 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
