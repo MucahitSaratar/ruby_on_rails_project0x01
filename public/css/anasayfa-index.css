@@ -11,6 +11,9 @@ body {
     text-decoration: none;
     color: black;
 }
+.yonlendirme a:hover {
+    text-decoration: underline;
+}
 .yonlendirme {
     font-size: 18px;
     position: relative;

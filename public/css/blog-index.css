@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #c3b9b7;
+}
+
+.menublock h1 {
+    display: inline-block;
+}
+.menublock a:hover {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70px;
+    text-align: right;
+    transition: 0.3s all linear;
+}
+
+.menublock a {
+    text-decoration: none;
+    color: black;
+    background-color: #c3b9b7;
+    float: right;
+    padding: 10px;
+    transition: 0.3s all linear;
+}
+
+.menublock {
+    background-color: #a59491;
+    padding: 20px
+}
