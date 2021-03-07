@@ -5515,3 +5515,147 @@ Processing by BlogController#index as HTML
 Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/blog/index" for ::1 at 2021-03-07 21:22:22 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:25:08 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `*' for nil:NilClass):
+  
+app/controllers/blog_controller.rb:5:in `index'
+Started GET "/blog/index?id=0" for ::1 at 2021-03-07 21:25:17 +0300
+Processing by BlogController#index as HTML
+  Parameters: {"id"=>"0"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/blog_controller.rb:5:in `+'
+app/controllers/blog_controller.rb:5:in `index'
+Started GET "/blog/index?id=0" for ::1 at 2021-03-07 21:26:11 +0300
+Processing by BlogController#index as HTML
+  Parameters: {"id"=>"0"}
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:26:18 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:26:23 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:26:37 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `i' for #<BlogController:0x00007f50643b5658>
+Did you mean?  id):
+  
+app/controllers/blog_controller.rb:5:in `index'
+Started GET "/blog/index" for ::1 at 2021-03-07 21:26:42 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index?id=50" for ::1 at 2021-03-07 21:26:57 +0300
+Processing by BlogController#index as HTML
+  Parameters: {"id"=>"50"}
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 21:27:47 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:27:49 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 21:27:51 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:27:57 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 21:29:28 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:29:30 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 21:29:35 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:29:37 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 21:29:59 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 21:30:04 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
