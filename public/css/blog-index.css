@@ -50,3 +50,7 @@ body {
 .logo {
     float: left;
 }
+
+.cleanme {
+    visibility: hidden;
+}

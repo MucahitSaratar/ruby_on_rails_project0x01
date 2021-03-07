@@ -9,9 +9,15 @@
     <div class="menublock">
         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     </div>
+    <%= loop do %>
+    <div class="cleanme"><%= satir = @stm.next %></div>
+    <%= break if satir==nil %>
+    
     <div class="gosterim">
-        <p class="baslik"><%= @baslik %></p>
-        <div class="logovekisa"><img src="../images/icon0.png" alt="icon0" class="logo"><div class="icerik">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati natus sint repellendus temporibus necessitatibus, molestias culpa, itaque deserunt aspernatur vitae quaerat nisi nulla exercitationem officiis tempore ipsam cupiditate velit, distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus labore deleniti, repellendus assumenda porro, distinctio tempora vitae debitis perferendis. Illum beatae amet cumque animi nemo. A, placeat eius quis? <%= @icerik %></div></div>
+        <p class="baslik"><%= satir[1] %></p>
+        <div class="logovekisa"><img src="../images/icon0.png" alt="icon0" class="logo"><div class="icerik">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati natus sint repellendus temporibus necessitatibus, molestias culpa, itaque deserunt aspernatur vitae quaerat nisi nulla exercitationem officiis tempore ipsam cupiditate velit, distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus labore deleniti, repellendus assumenda porro, distinctio tempora vitae debitis perferendis. Illum beatae amet cumque animi nemo. A, placeat eius quis? <%= satir[2] %></div></div>
     </div>
+    <% end %>
+    
 </body>
-</html
+</html>
