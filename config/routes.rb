@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'blog/read'
   get 'blog/index'
     root "anasayfa#index"
   get 'anasayfa/index'
