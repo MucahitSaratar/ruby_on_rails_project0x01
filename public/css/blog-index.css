@@ -30,3 +30,23 @@ body {
     background-color: #a59491;
     padding: 20px
 }
+
+.gosterim {
+    padding: 20px 50px 20px 50px;
+}
+
+.baslik {
+    text-align: center;
+    font-size: 19px;
+
+}
+
+.icerik {
+    padding: 10px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+.logo {
+    float: left;
+}

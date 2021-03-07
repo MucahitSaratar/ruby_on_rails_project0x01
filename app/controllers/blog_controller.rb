@@ -1,9 +1,11 @@
 class BlogController < ApplicationController
   def index
       db = SQLite3::Database.open "db/development.sqlite3"
-      id = 1
-      stm = db.query "select * from yazilarim where id=?",id
+      stm = db.query "select * from yazilarim"
       cek = stm.next
-      @degiskenim = cek['logo']
+      @id = cek[0]
+      @baslik = cek[1]
+      @logo = cek[2]
+      @icerik = cek[3]
   end
 end

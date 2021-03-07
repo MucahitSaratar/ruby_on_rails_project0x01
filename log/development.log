@@ -3722,3 +3722,743 @@ TypeError (no implicit conversion of String into Integer):
   
 app/controllers/blog_controller.rb:7:in `[]'
 app/controllers/blog_controller.rb:7:in `index'
+Started GET "/" for ::1 at 2021-03-07 11:33:05 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 11:34:30 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/blog_controller.rb:7:in `[]'
+app/controllers/blog_controller.rb:7:in `index'
+Started GET "/" for ::1 at 2021-03-07 13:27:48 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 13:27:51 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-07 13:38:45 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 13:42:02 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Integer):
+  
+app/controllers/blog_controller.rb:12:in `+'
+app/controllers/blog_controller.rb:12:in `index'
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:16 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:17 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:24 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:33 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:40 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:42 +0300
+Started PUT "/__web_console/repl_sessions/4ee54197bdb447a9da68e7ef940232bc" for ::1 at 2021-03-07 13:42:49 +0300
+Started GET "/blog/index" for ::1 at 2021-03-07 13:44:16 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 13:44:27 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (String can't be coerced into Integer):
+  
+app/controllers/blog_controller.rb:12:in `+'
+app/controllers/blog_controller.rb:12:in `index'
+Started GET "/blog/index" for ::1 at 2021-03-07 13:45:03 +0300
+Processing by BlogController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/blog_controller.rb:12:in `+'
+app/controllers/blog_controller.rb:12:in `index'
+Started GET "/blog/index" for ::1 at 2021-03-07 13:45:13 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 13:46:27 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 13:59:18 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:43:14 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:45:20 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:45:21 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:45:45 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:46:13 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:46:41 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:47:02 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:47:13 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:47:27 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:48:59 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:49:04 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:49:19 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:49:33 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:49:40 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:50:21 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:50:49 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:50:57 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:51:38 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:52:12 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:52:41 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:53:15 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:53:27 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:53:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:54:05 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:10 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:15 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:16 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:33 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:38 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:39 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:46 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:47 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:48 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:49 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 14:59:58 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:00:03 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:00:39 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:02 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:19 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:41 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:53 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:01:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:02:18 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:02:34 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:02:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:03:30 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:03:30 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:02 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:25 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:40 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:46 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:47 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:47 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:04:47 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:05:14 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:05:22 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:05:43 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:05:50 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:08 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:11 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:12 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:12 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:12 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:18 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:34 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:35 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:35 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:06:35 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:11 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:22 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:23 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:23 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:23 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:23 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:24 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:41 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:42 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:42 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:42 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:07:54 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:08:40 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:09:07 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:09:50 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:10:24 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:10:55 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:11:11 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:11:32 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-07 15:11:39 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
