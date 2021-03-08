@@ -9,5 +9,10 @@
     <div class="menublock">
         <a href="/blog/index" class="liste"><h1>CEVOL's research blog</h1></a><a class="anasayfa" href="/anasayfa/index">Anasayfa</a>
     </div>
+    <% if @id != 0%>
+    <div class="baslik"><%= @basligim %></div>
+    <% elsif @id == 0 or @row==nil %>
+    <div class="error"><h1><%= @basligim %></h1></div>
+    <% end %>
 </body>
 </html>
