@@ -6,6 +6,10 @@ body {
     background-color: #c3b9b7;
 }
 
+.menublock h1:hover {
+    cursor: pointer;
+}
+
 .menublock h1 {
     display: inline-block;
 }
@@ -28,7 +32,9 @@ body {
 
 .menublock {
     background-color: #a59491;
-    padding: 20px
+    padding: 20px 20px 20px 40px;
+    position: sticky;
+    top: 0;
 }
 
 .gosterim {
@@ -58,3 +64,37 @@ body {
 .cleanme {
     visibility: hidden;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.gecis {
+    position: absolute;
+    bottom: 17px;
+    width: 100%;
+}
+.gecis a {
+    text-decoration: none;
+}
+
+.gecis a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.sag {
+    color: black;
+    float: right;
+    padding: 6px;
+}
+.sol {
+    color: black;
+    float: left;
+    padding: 6px;
+}
+
