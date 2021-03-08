@@ -6,13 +6,25 @@
     <title>Researches</title>
 </head>
 <body>
+   <script src="../js/deletenewlines.js"></script>
     <div class="menublock">
         <a href="/blog/index" class="liste"><h1>CEVOL's research blog</h1></a><a class="anasayfa" href="/anasayfa/index">Anasayfa</a>
     </div>
-    <% if @id != 0%>
-    <div class="baslik"><%= @basligim %></div>
-    <% elsif @id == 0 or @row==nil %>
-    <div class="error"><h1><%= @basligim %></h1></div>
+    <div class="baslik"><h1><%= @basligim %></h1></div>
+    
+    <% @icerik.each do |karakter| %>
+    <% if karakter != "-" and karakter != "(" and karakter != "_" %>
+    <%= karakter %>
+    <% elsif karakter == "-" %>
+    <p class="yazi" onload="temizle()">
+    <% elsif karakter == "(" %>
+    <p class="code" onload="temizle()">
+    <% elsif karakter == "_" %>
+    </p>
     <% end %>
+    <% end %>
+
+    
+    <a href="https://asciinema.org/a/<%= @url %>" target="_blank"><img src="https://asciinema.org/a/<%= @url %>.svg" /></a>
 </body>
 </html>

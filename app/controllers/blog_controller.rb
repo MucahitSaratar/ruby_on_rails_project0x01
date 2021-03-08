@@ -9,14 +9,13 @@ class BlogController < ApplicationController
       @id = params[:id].to_i
       stm = db.query "select * from detayliyazi where id=?",@id
       @row = stm.next
-      p @row
       if @row == nil
-        @basligim = "<h1>Hatalı istek</h1>"
+        @basligim = "hata"
+        @icerik = "hatali istek"
       else
         @basligim = @row[1]
-        @icerik = @row[2]
-        @icerik["---"] = "<div class='code'>"
-        @icerik["--"] = "</div>"
+        @url = @row[3]
+        @icerik = @row[2].split('')
       end
   end
 end
