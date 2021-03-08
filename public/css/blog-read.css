@@ -36,3 +36,28 @@ body {
 .menublock a.liste {
     color: black;
 }
+
+.baslik {
+    padding: 13px;
+}
+
+.baslik h1 {
+    text-align: center;
+}
+
+p {
+    padding: 15px;
+}
+
+.yazi {
+    font-size: 18px;
+    text-indent: 30px;
+}
+
+
+.ascii {
+    display: block;
+    margin: auto;
+    padding: 0 0 20px 0;
+    width: 800px;
+}
