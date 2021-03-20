@@ -8531,3 +8531,99 @@ Processing by BlogController#read as HTML
 Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-03-10 14:35:46 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-10 14:36:03 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/read?id=2" for ::1 at 2021-03-10 14:36:19 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"2"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (33.6ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "hatali istek":String):
+    11:     </div>
+    12:     <div class="baslik"><h1><%= @basligim %></h1></div>
+    13:     <% toplayici = '' %>
+    14:     <% @icerik.each do |karakter| %>
+    15:     <% if karakter != "-" and karakter != "(" and karakter != "_" and karakter != "\n" %>
+    16:     <% toplayici += karakter %>
+    17:     <% elsif karakter == "-" %>
+  
+app/views/blog/read.html.erb:14:in `_app_views_blog_read_html_erb___2289008702013070740_16000'
+Started GET "/blog/read?id=1" for ::1 at 2021-03-10 14:36:44 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-11 13:47:26 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-11 13:47:34 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-11 13:47:37 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-11 13:47:39 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/read?id=2" for ::1 at 2021-03-11 13:47:40 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"2"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "hatali istek":String):
+    11:     </div>
+    12:     <div class="baslik"><h1><%= @basligim %></h1></div>
+    13:     <% toplayici = '' %>
+    14:     <% @icerik.each do |karakter| %>
+    15:     <% if karakter != "-" and karakter != "(" and karakter != "_" and karakter != "\n" %>
+    16:     <% toplayici += karakter %>
+    17:     <% elsif karakter == "-" %>
+  
+app/views/blog/read.html.erb:14:in `_app_views_blog_read_html_erb___1676798270519989845_16200'
+Started GET "/blog/read?id=1" for ::1 at 2021-03-11 13:47:48 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
