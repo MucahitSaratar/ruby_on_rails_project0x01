@@ -4500,7 +4500,7 @@ Completed 500 Internal Server Error in 279ms (ActiveRecord: 0.0ms)
   
 ActionView::Template::Error (undefined local variable or method `stm' for #<#<Class:0x0000556591a4b478>:0x000055659366faa0>):
      9:     <div class="menublock">
-    10:         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    10:         <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     11:     </div>
     12:     <%= cek = stm.next
     13:     p cek
@@ -4519,7 +4519,7 @@ Completed 500 Internal Server Error in 150ms (ActiveRecord: 0.0ms)
 ActionView::Template::Error (undefined local variable or method `stm' for #<#<Class:0x00005565923de198>:0x00005565923aa438>
 Did you mean?  @stm):
      9:     <div class="menublock">
-    10:         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    10:         <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     11:     </div>
     12:     <%= cek = stm.next
     13:     p cek
@@ -5063,7 +5063,7 @@ Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
 ActionView::Template::Error (undefined local variable or method `stm' for #<#<Class:0x000056068676f308>:0x0000560686ca1600>
 Did you mean?  @stm):
      9:     <div class="menublock">
-    10:         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    10:         <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     11:     </div>
     12:     <%= p stm.next %>
     13:     <%= p stm.next %>
@@ -5959,7 +5959,7 @@ Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
 
   
 ActionView::Template::Error (undefined method `next' for nil:NilClass):
-    11:         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    11:         <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     12:     </div>
     13:     <%= loop do %>
     14:     <div class="cleanme"><%= satir = @stm.next %></div>
@@ -5979,7 +5979,7 @@ Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
 
   
 ActionView::Template::Error (undefined method `next' for nil:NilClass):
-    11:         <h1>CEVOL's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    11:         <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
     12:     </div>
     13:     <%= loop do %>
     14:     <div class="cleanme"><%= satir = @stm.next %></div>
