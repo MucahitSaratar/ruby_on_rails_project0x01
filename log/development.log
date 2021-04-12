@@ -8706,3 +8706,80 @@ Processing by BlogController#index as HTML
 Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-03-25 16:47:21 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-25 16:47:48 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/anasayfa/index" for ::1 at 2021-03-25 16:47:52 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-03-25 16:47:54 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/read?id=1" for ::1 at 2021-03-25 16:47:56 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/read?id=2" for ::1 at 2021-03-25 16:49:12 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"2"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "hatali istek":String):
+    11:     </div>
+    12:     <div class="baslik"><h1><%= @basligim %></h1></div>
+    13:     <% toplayici = '' %>
+    14:     <% @icerik.each do |karakter| %>
+    15:     <% if karakter != "-" and karakter != "(" and karakter != "_" and karakter != "\n" %>
+    16:     <% toplayici += karakter %>
+    17:     <% elsif karakter == "-" %>
+  
+app/views/blog/read.html.erb:14:in `_app_views_blog_read_html_erb___858803785336642379_13880'
+Started GET "/" for ::1 at 2021-04-08 16:25:08 +0300
+Processing by AnasayfaController#index as HTML
+  Rendering anasayfa/index.html.erb within layouts/application
+  Rendered anasayfa/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/index" for ::1 at 2021-04-08 16:26:13 +0300
+Processing by BlogController#index as HTML
+  Rendering blog/index.html.erb within layouts/application
+  Rendered blog/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog/read?id=1" for ::1 at 2021-04-08 16:26:20 +0300
+Processing by BlogController#read as HTML
+  Parameters: {"id"=>"1"}
+  Rendering blog/read.html.erb within layouts/application
+  Rendered blog/read.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
