@@ -1,4 +1,3 @@
-# workonassmebly
+# ruby on rails blog web application
 
-ruby on rails web uygulaması ile assmebly geliştirme prjesi
-
+ruby on rails web application as blog
