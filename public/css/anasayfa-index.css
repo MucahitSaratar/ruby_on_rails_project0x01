@@ -1,0 +1,60 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #837474;
+}
+
+.yonlendirme a {
+    text-decoration: none;
+    color: black;
+}
+.yonlendirme a:hover {
+    text-decoration: underline;
+}
+.yonlendirme {
+    font-size: 18px;
+    position: relative;
+    top: 15px;
+}
+
+.header h1 span#isim {
+    color: #3f3232;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.tanitim {
+    display: inline-block;
+    padding: 20px 5% 20px 5%;
+    margin: 0 1% 0 1%;
+    width: 88%;
+    background-color: #ddcbcb;
+    border-radius: 10px;
+}
+.intanitim {
+    display: block;
+    font-size: 19px;
+    text-align: center;
+}
+
+.icindelistevar ul li {
+    padding: 5px;
+    font-size: 17px;
+    list-style: '๛';
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}

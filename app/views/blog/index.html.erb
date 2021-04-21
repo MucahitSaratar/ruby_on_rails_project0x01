@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/blog-index.css">
+    <title>Samayar Blog</title>
+</head>
+<body>
+   <script src="../js/yonlendirici.js"></script>
+    <div class="menublock">
+        <h1>samayar's research blog</h1><a href="/anasayfa/index">Anasayfa</a>
+    </div>
+    <div class="cleanme"><%= sayac=0 %></div>
+    <%= loop do %>
+    <div class="cleanme"><%= satir = @stm.next %></div>
+    <%= break if satir==nil %>
+    <div class="cleanme"><%= sayac += 1 %></div>
+    <div class="gosterim" onclick="redirect(<%= satir[0] %>)">
+        <p class="baslik"><%= satir[1] %></p>
+        <div class="logovekisa"><img src="../images/icon0.png" alt="icon0" class="logo"><div class="icerik">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati natus sint repellendus temporibus necessitatibus, molestias culpa, itaque deserunt aspernatur vitae quaerat nisi nulla exercitationem officiis tempore ipsam cupiditate velit, distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor temporibus labore deleniti, repellendus assumenda porro, distinctio tempora vitae debitis perferendis. Illum beatae amet cumque animi nemo. A, placeat eius quis? <%= satir[2] %></div></div>
+    </div>
+    <% end %>
+    <div class="gecis">
+        <% if sayac % 10 == 0 && sayac != 0 %>
+        <a class="sag" href="/blog/index?id=<%= p @id+1 %>">Sonraki sayfa</a>
+        <% elsif @id > 0 %>
+        <a class="sol" href="/blog/index?id=<%= p @id-1 %>">Önceki sayfa</a>
+        <% end %>
+    </div>
+    <div class="footer"><p>Tüm hakları samayar tarafından saklıdır ©</p></div>
+</body>
+</html>

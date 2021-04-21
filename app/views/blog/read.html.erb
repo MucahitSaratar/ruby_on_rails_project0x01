@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/blog-read.css">
+    <title>Researches</title>
+</head>
+<body>
+    <div class="menublock">
+        <a href="/blog/index" class="liste"><h1>samayar's research blog</h1></a><a class="anasayfa" href="/anasayfa/index">Anasayfa</a>
+    </div>
+    <div class="baslik"><h1><%= @basligim %></h1></div>
+    <% toplayici = '' %>
+    <% @icerik.each do |karakter| %>
+    <% if karakter != "-" and karakter != "(" and karakter != "_" and karakter != "\n" %>
+    <% toplayici += karakter %>
+    <% elsif karakter == "-" %>
+    <%= toplayici %>
+    <% toplayici = '' %>
+    <p class="yazi">
+    <% elsif karakter == "(" %>
+    <%= toplayici %>
+    <% toplayici = '' %>
+    <p class="code">
+    <% elsif karakter == "_" %>
+    <%= toplayici %>
+    <% toplayici = '' %>
+    </p>
+    <% elsif karakter == "\n" %>
+    <%= toplayici %>
+    <% toplayici = '' %>
+    <br>
+    <% end %>
+    <% end %>
+
+    
+    <a href="https://asciinema.org/a/<%= @url %>" target="_blank"><img src="https://asciinema.org/a/<%= @url %>.svg" class="ascii" /></a>
+</body>
+</html>
